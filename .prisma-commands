@@ -1,0 +1,4 @@
+npx prisma migrate dev "name"
+Example: 
+npx prisma migrate dev change-fields
+npx prisma migrate dev add-skills-model

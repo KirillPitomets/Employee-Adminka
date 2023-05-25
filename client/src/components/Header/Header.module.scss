@@ -1,0 +1,22 @@
+.header {
+	padding: 1.25rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1.25rem;
+	background: transparent;
+}
+
+.icon {
+	font-size: 0.9rem;
+	color: white;
+}
+
+.link {
+	font-size: 1rem;
+	transition: color 0.2s ease;
+
+	&:hover {
+		color: deepskyblue;
+	}
+}
